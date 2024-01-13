@@ -33,8 +33,9 @@
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">×</a>
         <ul>
-            <li><a href="#" data-tooltip="Home"><ion-icon name="home-outline"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="reader-outline"></ion-icon></a></li>
+            <li><a href="/" data-tooltip="Home"><ion-icon name="home-outline"></ion-icon></a></li>
+            <li><a href="/cadastro/cadastro/" data-tooltip="Cadastrar"><ion-icon name="reader-outline"></ion-icon></a>
+            </li>
             <li><a href="#"><ion-icon name="journal-outline"></ion-icon></a></li>
             <li><a href="#"><ion-icon name="cash-outline"></ion-icon></a></li>
         </ul>
