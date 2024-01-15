@@ -10,9 +10,8 @@ class CadastroController extends Controller
 {
     public function indexcadastro()
     {
-        $cadastro = Cadastro::all();
 
-        return view('cadastro.cadastro', ['cadastro' => $cadastro]);
+        return view('cadastro.cadastro');
     }
 
 
