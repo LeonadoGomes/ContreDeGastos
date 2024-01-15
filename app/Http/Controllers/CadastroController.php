@@ -28,6 +28,8 @@ class CadastroController extends Controller
         $cadastro->address = $request->address;
         $cadastro->preco = $request->preco;
 
+
+
         $cadastro->save();
 
         return redirect('/');

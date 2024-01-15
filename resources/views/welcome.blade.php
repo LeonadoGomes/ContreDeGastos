@@ -24,13 +24,14 @@
                             <tr>
                                 <td>{{ $cadastro->id }}</td>
                                 <td>{{ $cadastro->nome }}</td>
-                                <td>{{ $cadastro->datacompra }}</td>
+                                <td>{{ \Carbon\Carbon::parse($cadastro->datacompra)->format('d/m/Y') }}</td>
                                 <td>{{ $cadastro->formpagamento }}</td>
-                                <td>{{ $cadastro->datavencimento }}</td>
+                                <td>{{ \Carbon\Carbon::parse($cadastro->datacompra)->format('d/m/Y') }}</td>
                                 <td>{{ $cadastro->parcelas }}</td>
                                 <td>{{ $cadastro->status }}</td>
                                 <td>{{ $cadastro->address }}</td>
-                                <td>{{ $cadastro->preco }}</td>
+                                <td>R$ {{ $cadastro->preco }}</td>
+
                             </tr>
                         @endforeach
                     </tbody>

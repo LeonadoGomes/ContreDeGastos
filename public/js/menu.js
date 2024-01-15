@@ -10,14 +10,5 @@ function toggleMenu() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    const tooltipElements = document.querySelectorAll('.sidebar a');
 
-    tooltipElements.forEach(element => {
-        const tooltipText = element.getAttribute('data-tooltip');
-        const tooltip = document.createElement('div');
-        tooltip.className = 'tooltip';
-        tooltip.textContent = tooltipText;
-        element.appendChild(tooltip);
-    });
-});
+
